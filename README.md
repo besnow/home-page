@@ -10,6 +10,9 @@ cd /usr/share/nginx/html/v2board/public/ <br>
 
 git clone https://github.com/besnow/home-page.git   <br>
 mv home-page/* .    <br>
+
+rm -rf home-page   <br>
+
 修改Nginx运行的index优先级： <br>
 
 index index.html index.htm index.php; <br>
